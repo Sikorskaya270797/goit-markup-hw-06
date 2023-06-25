@@ -1,0 +1,133 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 426px;
+  }
+  .adv-item {
+    width: calc((100% - 24px) / 2);
+    max-width: 396px;
+    width: 100%;
+    text-align: center;
+  }
+  .adv-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    margin-bottom: 8px;
+    height: 112px;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+  }
+
+  .adv-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+    max-width: 1158px;
+    margin-bottom: 8px;
+  }
+  .adv-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--link-color);
+  }
+  .team-list {
+    width: calc((100% - 24px) / 2);
+    max-width: 264px;
+    width: 100%;
+    text-align: center;
+  }
+  .custom-item {
+    gap: 72px 16px;
+  }
+  .custom-list {
+    width: calc((100% - 16px) / 2);
+    max-width: 396px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .adv {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .adv-list {
+    gap: 72px 24px;
+  }
+  .adv-item {
+    width: calc((100% - 24px) / 2);
+    max-width: unset;
+    text-align: left;
+  }
+  .team-list {
+    width: calc((100% - 24px) / 2);
+    width: 100%;
+  }
+  .team-item {
+    gap: 64px 24px;
+  }
+  .custom-list {
+    width: calc((100% - 48px) / 3);
+  }
+  .custom-item {
+    gap: 72px 24px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1128px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .adv {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .adv-item {
+    width: calc((100% - 72px) / 4);
+    max-width: 100%;
+  }
+  .adv-list {
+    gap: 24px;
+    flex-wrap: nowrap;
+  }
+  .adv-icons {
+    display: block;
+  }
+  .adv-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    padding: 24px 0;
+    margin-bottom: 8px;
+  }
+  .adv.text {
+    width: 264px;
+  }
+  .desc {
+    display: block;
+  }
+  .team-list {
+    width: calc((100% - 72) / 4);
+    max-width: 100%;
+  }
+  .team-item {
+    flex-wrap: nowrap;
+  }
+  .custom-list {
+    width: calc((100% - 120px) / 6);
+  }
+  .custom-item {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+}
