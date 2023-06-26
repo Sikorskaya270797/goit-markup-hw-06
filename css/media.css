@@ -2,48 +2,13 @@
   .container {
     max-width: 428px;
   }
-  .adv-item {
-    width: calc((100% - 24px) / 2);
-    max-width: 396px;
-    width: 100%;
-    text-align: center;
-  }
-  .adv-icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: none;
-    margin-bottom: 8px;
-    height: 112px;
-    border-radius: 4px;
-    background-color: #f4f4fd;
-  }
-
-  .adv-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: var(--second-color);
-    max-width: 1158px;
-    margin-bottom: 8px;
-  }
-  .adv-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--link-color);
-  }
-
-  .custom-list {
-    max-width: 396px;
-  }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
+
   .adv {
     padding-top: 96px;
     padding-bottom: 96px;
