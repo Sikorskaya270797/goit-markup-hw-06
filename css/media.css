@@ -1,6 +1,6 @@
 @media screen and (min-width: 428px) {
   .container {
-    max-width: 426px;
+    max-width: 428px;
   }
   .adv-item {
     width: calc((100% - 24px) / 2);
@@ -34,17 +34,8 @@
     letter-spacing: 0.02em;
     color: var(--link-color);
   }
-  .team-list {
-    width: calc((100% - 24px) / 2);
-    max-width: 264px;
-    width: 100%;
-    text-align: center;
-  }
-  .custom-item {
-    gap: 72px 16px;
-  }
+
   .custom-list {
-    width: calc((100% - 16px) / 2);
     max-width: 396px;
   }
 }
@@ -77,6 +68,33 @@
   }
   .custom-item {
     gap: 72px 24px;
+  }
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/dark-bg.jpg);
+    max-width: 768px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/dark-bg-2-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin-bottom: 36px;
   }
 }
 
@@ -129,5 +147,32 @@
   .custom-item {
     flex-wrap: nowrap;
     gap: 24px;
+  }
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office1.jpg);
+    max-width: 1440px;
+    height: 600px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    font-size: 56px;
+    margin-bottom: 48px;
+    max-width: 496px;
   }
 }
