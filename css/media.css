@@ -2,6 +2,10 @@
   .container {
     max-width: 428px;
   }
+  .mob-social-item {
+    display: flex;
+    gap: 56px;
+  }
 }
 
 @media screen and (max-width: 427px) {
@@ -94,9 +98,10 @@
     font-style: normal;
   }
   .header-contacts-link {
+    font-weight: 400;
     font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 1.16;
     letter-spacing: 0.02em;
     color: var(--link-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -119,6 +124,9 @@
   }
   .team-item {
     gap: 64px 24px;
+  }
+  .custom {
+    padding: 96px 0;
   }
   .custom-list {
     width: calc((100% - 48px) / 3);
@@ -160,7 +168,7 @@
   }
 
   .footer-container {
-    padding-left: 108px;
+    max-width: 530px;
     gap: 72px 24px;
   }
   .footer-footer {
@@ -180,9 +188,19 @@
     text-align: left;
   }
   .footer-form {
+    display: flex;
     flex-direction: unset;
     gap: 24px;
     max-width: 453px;
+  }
+  .footer-input {
+    width: 264px;
+  }
+  .footer-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
   }
   .modal {
     width: 408px;
@@ -215,12 +233,13 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
   .adv {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -248,17 +267,29 @@
   .adv.text {
     width: 264px;
   }
+  .adv-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--link-color);
+  }
   .adv-title {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding-bottom: 8px;
+    padding-top: 8px;
   }
+
   .desc {
     display: block;
+  }
+  .team {
+    padding: 120px 0;
   }
   .team-list {
     width: calc((100% - 72) / 4);
@@ -266,6 +297,10 @@
   }
   .team-item {
     flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .custom {
+    padding: 120px 0;
   }
   .custom-list {
     width: calc((100% - 120px) / 6);
@@ -280,6 +315,7 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office1.jpg);
+    padding: 188px 0;
     max-width: 1440px;
     height: 600px;
   }

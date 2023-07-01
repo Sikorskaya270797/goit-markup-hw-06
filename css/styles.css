@@ -103,21 +103,19 @@ img {
   margin-left: auto;
   right: 24px;
   top: 24px;
-  width: 24px;
   height: 24px;
   border-radius: 50%;
   background-color: transparent;
-  color: var(--background-color-hero-footer);
-  transition: background-color 250ms var(--cubic-bezier),
-    border 250ms var(--cubic-bezier);
+  transition: background-color 250ms var(--accent-color),
+    border 250ms var(--accent-color);
   cursor: pointer;
+  stroke: currentColor;
+  border: none;
 }
 .close-menu-btn:hover {
   background-color: var(--accent-color);
 }
-.mob-icon {
-  border: none;
-}
+
 .close-menu-btn {
   display: block;
   margin-left: auto;
@@ -168,13 +166,13 @@ img {
 }
 .mob-social-item {
   display: flex;
-  gap: 56px;
+  gap: 25px;
 }
 
 /**--------------MAIN----------------------------------**/
 .hero {
   background-color: var(--second-color);
-  padding: 188px 0;
+  padding: 112px 0;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -262,7 +260,6 @@ img {
 }
 .adv-item {
   width: 100%;
-  text-align: center;
 }
 
 .adv-title {
@@ -275,6 +272,7 @@ img {
   margin-bottom: 8px;
 }
 .adv-text {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -317,7 +315,7 @@ img {
 }
 .team {
   background-color: var(--footer-text-color);
-  padding: 120px 0;
+  padding: 96px 0;
 }
 .team-title {
   font-weight: 700;
@@ -335,7 +333,7 @@ img {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 72px;
 }
 .team-container {
   padding-top: 32px;
@@ -415,7 +413,7 @@ img {
   margin-bottom: 72px;
 }
 .custom {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .custom-item {
@@ -556,7 +554,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding-left: 16px;
-  width: 264px;
+  width: 100%;
   height: 40px;
   border: 1px solid var(--background-color);
   border-radius: 4px;
@@ -584,7 +582,7 @@ img {
   margin-left: auto;
 } */
 .footer-form {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
   gap: 24px;
@@ -599,7 +597,9 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  /* display: flex; */
+  display: flex;
+  margin: 0 auto;
+  margin-top: 16px;
   min-width: 165px;
   height: 40px;
   cursor: pointer;
