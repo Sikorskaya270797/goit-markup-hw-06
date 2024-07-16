@@ -648,10 +648,7 @@ img {
   gap: 40px;
 }
 
-.header-contacts-item {
-  display: flex;
-  gap: 40px;
-}
+
 .header-navigation {
   display: flex;
   margin-right: auto;
@@ -678,6 +675,7 @@ img {
 }
 .aplication-click {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 72px;
   margin-left: auto;

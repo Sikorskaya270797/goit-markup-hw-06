@@ -6,11 +6,25 @@
     display: flex;
     gap: 56px;
   }
+
+  .aplication-click{
+    max-width: 270px;
+    gap: 24px;
+    row-gap: 16px;
+      margin-bottom: 48px;
+  }
 }
 
 @media screen and (max-width: 427px) {
   .modal {
     width: 300px;
+  }
+
+  .aplication-click{
+    max-width: 270px;
+    gap: 24px;
+    row-gap: 16px;
+      margin-bottom: 48px;
   }
 }
 
@@ -82,18 +96,14 @@
   .active {
     color: var(--text-color);
   }
-  .header-menu-link:hover {
+  .header-menu-link:hover, .header-menu-link:focus {
     color: var(--text-color);
   }
-  .header-menu-link:focus {
+ 
+  .header-contacts-link:hover, .header-contacts-link:focus {
     color: var(--text-color);
   }
-  .header-contacts-link:hover {
-    color: var(--text-color);
-  }
-  .header-contacts-link:focus {
-    color: var(--text-color);
-  }
+ 
   .header-contacts-list {
     font-style: normal;
   }
@@ -336,6 +346,10 @@
     font-size: 56px;
     margin-bottom: 48px;
     max-width: 496px;
+  }
+
+  .aplication-click{
+    flex-wrap: nowrap;
   }
   .footer {
     padding: 100px 0;
